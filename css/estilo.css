@@ -1,0 +1,125 @@
+/* Tipografía moderna */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: url('../imagenes/fondoindexpaulina.png') repeat;
+  background-size: 150px;
+  color: #333;
+}
+
+/* Contenedor principal */
+#main {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Header */
+#header {
+  text-align: center;
+  background-color: white;
+  padding: 2rem 1rem 1rem;
+}
+
+#header img {
+  max-width: 320px;
+}
+
+/* Navegación */
+#nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: #d90000;
+  list-style: none;
+}
+
+#nav li {
+  flex: 1;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+#nav li a:hover,
+#nav li a.active {
+  background-color: #a30000;
+}
+
+/* Sección principal */
+#section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #fefefe;
+}
+
+/* Columnas */
+#izquierda, #derecha {
+  flex: 1 1 300px;
+  padding: 1rem;
+}
+
+#izquierda p {
+  font-size: 1.4rem;
+  color: #d90000;
+  font-weight: 600;
+}
+
+#derecha p {
+  font-size: 1.1rem;
+  color: #d90000;
+  line-height: 1.6;
+}
+
+/* Footer */
+#footer {
+  text-align: left;
+  padding: 1.5rem;
+  background-color: #d90000;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+color: white;
+
+}
+
+#footer img {
+  
+  text-align: right;
+  width: 80px;
+  opacity: 100;
+}
+
+.footer-right p {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.titulo-rojo {
+  color: #d90000;
+  font-weight: 600;
+}
+
+.texto-negro {
+  color: #333;
+}
+
+
